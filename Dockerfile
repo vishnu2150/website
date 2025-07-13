@@ -1,2 +1,2 @@
-FROM ubuntu/apache2
-COPY . /var/www/html/
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
